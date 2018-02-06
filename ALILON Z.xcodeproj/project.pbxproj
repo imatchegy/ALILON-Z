@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2ECB62B0202A24E5007CBF07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB62AF202A24E5007CBF07 /* AppDelegate.swift */; };
+		2ECB62B2202A24E5007CBF07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB62B1202A24E5007CBF07 /* ViewController.swift */; };
+		2ECB62B5202A24E5007CBF07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ECB62B3202A24E5007CBF07 /* Main.storyboard */; };
+		2ECB62B7202A24E5007CBF07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ECB62B6202A24E5007CBF07 /* Assets.xcassets */; };
+		2ECB62BA202A24E5007CBF07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ECB62B8202A24E5007CBF07 /* LaunchScreen.storyboard */; };
+		2ECB62C5202A24E5007CBF07 /* ALILON_ZTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB62C4202A24E5007CBF07 /* ALILON_ZTests.swift */; };
+		2ECB62D0202A24E5007CBF07 /* ALILON_ZUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB62CF202A24E5007CBF07 /* ALILON_ZUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2ECB62C1202A24E5007CBF07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ECB62A4202A24E5007CBF07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ECB62AB202A24E5007CBF07;
+			remoteInfo = "ALILON Z";
+		};
+		2ECB62CC202A24E5007CBF07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ECB62A4202A24E5007CBF07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ECB62AB202A24E5007CBF07;
+			remoteInfo = "ALILON Z";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2ECB62AC202A24E5007CBF07 /* ALILON Z.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ALILON Z.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ECB62AF202A24E5007CBF07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2ECB62B1202A24E5007CBF07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2ECB62B4202A24E5007CBF07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2ECB62B6202A24E5007CBF07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2ECB62B9202A24E5007CBF07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2ECB62BB202A24E5007CBF07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ECB62C0202A24E5007CBF07 /* ALILON ZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ALILON ZTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ECB62C4202A24E5007CBF07 /* ALILON_ZTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALILON_ZTests.swift; sourceTree = "<group>"; };
+		2ECB62C6202A24E5007CBF07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ECB62CB202A24E5007CBF07 /* ALILON ZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ALILON ZUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ECB62CF202A24E5007CBF07 /* ALILON_ZUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALILON_ZUITests.swift; sourceTree = "<group>"; };
+		2ECB62D1202A24E5007CBF07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2ECB62A9202A24E5007CBF07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ECB62BD202A24E5007CBF07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ECB62C8202A24E5007CBF07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2ECB62A3202A24E5007CBF07 = {
+			isa = PBXGroup;
+			children = (
+				2ECB62AE202A24E5007CBF07 /* ALILON Z */,
+				2ECB62C3202A24E5007CBF07 /* ALILON ZTests */,
+				2ECB62CE202A24E5007CBF07 /* ALILON ZUITests */,
+				2ECB62AD202A24E5007CBF07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2ECB62AD202A24E5007CBF07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ECB62AC202A24E5007CBF07 /* ALILON Z.app */,
+				2ECB62C0202A24E5007CBF07 /* ALILON ZTests.xctest */,
+				2ECB62CB202A24E5007CBF07 /* ALILON ZUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2ECB62AE202A24E5007CBF07 /* ALILON Z */ = {
+			isa = PBXGroup;
+			children = (
+				2ECB62AF202A24E5007CBF07 /* AppDelegate.swift */,
+				2ECB62B1202A24E5007CBF07 /* ViewController.swift */,
+				2ECB62B3202A24E5007CBF07 /* Main.storyboard */,
+				2ECB62B6202A24E5007CBF07 /* Assets.xcassets */,
+				2ECB62B8202A24E5007CBF07 /* LaunchScreen.storyboard */,
+				2ECB62BB202A24E5007CBF07 /* Info.plist */,
+			);
+			path = "ALILON Z";
+			sourceTree = "<group>";
+		};
+		2ECB62C3202A24E5007CBF07 /* ALILON ZTests */ = {
+			isa = PBXGroup;
+			children = (
+				2ECB62C4202A24E5007CBF07 /* ALILON_ZTests.swift */,
+				2ECB62C6202A24E5007CBF07 /* Info.plist */,
+			);
+			path = "ALILON ZTests";
+			sourceTree = "<group>";
+		};
+		2ECB62CE202A24E5007CBF07 /* ALILON ZUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2ECB62CF202A24E5007CBF07 /* ALILON_ZUITests.swift */,
+				2ECB62D1202A24E5007CBF07 /* Info.plist */,
+			);
+			path = "ALILON ZUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2ECB62AB202A24E5007CBF07 /* ALILON Z */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ECB62D4202A24E5007CBF07 /* Build configuration list for PBXNativeTarget "ALILON Z" */;
+			buildPhases = (
+				2ECB62A8202A24E5007CBF07 /* Sources */,
+				2ECB62A9202A24E5007CBF07 /* Frameworks */,
+				2ECB62AA202A24E5007CBF07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ALILON Z";
+			productName = "ALILON Z";
+			productReference = 2ECB62AC202A24E5007CBF07 /* ALILON Z.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2ECB62BF202A24E5007CBF07 /* ALILON ZTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ECB62D7202A24E5007CBF07 /* Build configuration list for PBXNativeTarget "ALILON ZTests" */;
+			buildPhases = (
+				2ECB62BC202A24E5007CBF07 /* Sources */,
+				2ECB62BD202A24E5007CBF07 /* Frameworks */,
+				2ECB62BE202A24E5007CBF07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ECB62C2202A24E5007CBF07 /* PBXTargetDependency */,
+			);
+			name = "ALILON ZTests";
+			productName = "ALILON ZTests";
+			productReference = 2ECB62C0202A24E5007CBF07 /* ALILON ZTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2ECB62CA202A24E5007CBF07 /* ALILON ZUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ECB62DA202A24E5007CBF07 /* Build configuration list for PBXNativeTarget "ALILON ZUITests" */;
+			buildPhases = (
+				2ECB62C7202A24E5007CBF07 /* Sources */,
+				2ECB62C8202A24E5007CBF07 /* Frameworks */,
+				2ECB62C9202A24E5007CBF07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ECB62CD202A24E5007CBF07 /* PBXTargetDependency */,
+			);
+			name = "ALILON ZUITests";
+			productName = "ALILON ZUITests";
+			productReference = 2ECB62CB202A24E5007CBF07 /* ALILON ZUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2ECB62A4202A24E5007CBF07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = iMATCH;
+				TargetAttributes = {
+					2ECB62AB202A24E5007CBF07 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					2ECB62BF202A24E5007CBF07 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2ECB62AB202A24E5007CBF07;
+					};
+					2ECB62CA202A24E5007CBF07 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2ECB62AB202A24E5007CBF07;
+					};
+				};
+			};
+			buildConfigurationList = 2ECB62A7202A24E5007CBF07 /* Build configuration list for PBXProject "ALILON Z" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2ECB62A3202A24E5007CBF07;
+			productRefGroup = 2ECB62AD202A24E5007CBF07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2ECB62AB202A24E5007CBF07 /* ALILON Z */,
+				2ECB62BF202A24E5007CBF07 /* ALILON ZTests */,
+				2ECB62CA202A24E5007CBF07 /* ALILON ZUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ECB62AA202A24E5007CBF07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECB62BA202A24E5007CBF07 /* LaunchScreen.storyboard in Resources */,
+				2ECB62B7202A24E5007CBF07 /* Assets.xcassets in Resources */,
+				2ECB62B5202A24E5007CBF07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ECB62BE202A24E5007CBF07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ECB62C9202A24E5007CBF07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ECB62A8202A24E5007CBF07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECB62B2202A24E5007CBF07 /* ViewController.swift in Sources */,
+				2ECB62B0202A24E5007CBF07 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ECB62BC202A24E5007CBF07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECB62C5202A24E5007CBF07 /* ALILON_ZTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ECB62C7202A24E5007CBF07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECB62D0202A24E5007CBF07 /* ALILON_ZUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2ECB62C2202A24E5007CBF07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ECB62AB202A24E5007CBF07 /* ALILON Z */;
+			targetProxy = 2ECB62C1202A24E5007CBF07 /* PBXContainerItemProxy */;
+		};
+		2ECB62CD202A24E5007CBF07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ECB62AB202A24E5007CBF07 /* ALILON Z */;
+			targetProxy = 2ECB62CC202A24E5007CBF07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2ECB62B3202A24E5007CBF07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ECB62B4202A24E5007CBF07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2ECB62B8202A24E5007CBF07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2ECB62B9202A24E5007CBF07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2ECB62D2202A24E5007CBF07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2ECB62D3202A24E5007CBF07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2ECB62D5202A24E5007CBF07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ALILON Z/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imatcheg.ALILON-Z";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2ECB62D6202A24E5007CBF07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ALILON Z/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imatcheg.ALILON-Z";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2ECB62D8202A24E5007CBF07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ALILON ZTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imatcheg.ALILON-ZTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALILON Z.app/ALILON Z";
+			};
+			name = Debug;
+		};
+		2ECB62D9202A24E5007CBF07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ALILON ZTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imatcheg.ALILON-ZTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALILON Z.app/ALILON Z";
+			};
+			name = Release;
+		};
+		2ECB62DB202A24E5007CBF07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ALILON ZUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imatcheg.ALILON-ZUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ALILON Z";
+			};
+			name = Debug;
+		};
+		2ECB62DC202A24E5007CBF07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ALILON ZUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.imatcheg.ALILON-ZUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ALILON Z";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2ECB62A7202A24E5007CBF07 /* Build configuration list for PBXProject "ALILON Z" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ECB62D2202A24E5007CBF07 /* Debug */,
+				2ECB62D3202A24E5007CBF07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ECB62D4202A24E5007CBF07 /* Build configuration list for PBXNativeTarget "ALILON Z" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ECB62D5202A24E5007CBF07 /* Debug */,
+				2ECB62D6202A24E5007CBF07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ECB62D7202A24E5007CBF07 /* Build configuration list for PBXNativeTarget "ALILON ZTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ECB62D8202A24E5007CBF07 /* Debug */,
+				2ECB62D9202A24E5007CBF07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ECB62DA202A24E5007CBF07 /* Build configuration list for PBXNativeTarget "ALILON ZUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ECB62DB202A24E5007CBF07 /* Debug */,
+				2ECB62DC202A24E5007CBF07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2ECB62A4202A24E5007CBF07 /* Project object */;
+}
