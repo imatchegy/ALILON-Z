@@ -2,7 +2,9 @@
 
 import UIKit
 
-class HomemainViewController: UIViewController, UIScrollViewDelegate, UICollectionViewDelegate, UICollectionViewDataSource {
+class HomemainViewController: UIViewController, UIScrollViewDelegate, UICollectionViewDelegate, UICollectionViewDataSource  ,   UICollectionViewDelegateFlowLayout{
+   
+    
     
     
     var places:NSArray = ["pic22","pic22","pic22","pic22"]
@@ -31,7 +33,8 @@ class HomemainViewController: UIViewController, UIScrollViewDelegate, UICollecti
         eventsCollectionView.delegate = self
         eventsCollectionView.dataSource = self
         
-        
+      
+
         
         //slider code is here
     pageControl.numberOfPages = images.count
@@ -60,10 +63,31 @@ class HomemainViewController: UIViewController, UIScrollViewDelegate, UICollecti
         let pagenumber = scrollView.contentOffset.x / scrollView.frame.size.width
         pageControl.currentPage = Int(pagenumber)
         
-        
-        
-        
     }
+    
+    
+    
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let width = (self.view.frame.size.width - 12 * 3) / 2 //some width
+        let height = width * 1.2 //ratio
+        return CGSize(width: width , height: height)
+    }
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {

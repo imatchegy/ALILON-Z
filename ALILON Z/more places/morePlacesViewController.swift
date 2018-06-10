@@ -10,20 +10,19 @@ class morePlacesViewController: UIViewController, UICollectionViewDelegate, UICo
     var typeCell:NSArray = []
     
     @IBOutlet weak var morePlacesCollectionView: UICollectionView!
-    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let width = (self.view.frame.size.width - 12 * 3) / 2 //some width
         let height = width * 1.2 //ratio
         return CGSize(width: width , height: height)
     }
-    
+ 
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
-    
+        morePlacesCollectionView.delegate = self
+        morePlacesCollectionView.dataSource = self    }
+   
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 10
